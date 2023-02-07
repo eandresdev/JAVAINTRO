@@ -41,7 +41,7 @@ public class guiaTeoricaEj11 {
     public static void fraseCodificada(String cadena) { //recibe un string como parametro
       String subCadena;// variable en la que se alojara el parametro una vez lo reciba el metodo.
       
-      for (int i = 0; i<cadena.length(); i++) {
+      for (int i = 0; i<cadena.length(); i++) {// recorro i con paso en 1 hasta la longitud de la cadena.
            subCadena = cadena.substring(i, i+1);// se suma el 1 al ultimo caracter para que vaya modificando en cada iteracion del for.
           
           switch (subCadena) { //según cada vocal o cada caso, se modificará.
