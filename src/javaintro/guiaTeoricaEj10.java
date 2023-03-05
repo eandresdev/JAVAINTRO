@@ -19,9 +19,9 @@ public class guiaTeoricaEj10 {
         int num;
         
         //bloque solución
-        for (int i=0; i<4; i++){ // condición del for, iterar i 4 veces.
+        for (int i = 0; i < 4; i++){ // condición del for, iterar i 4 veces.
             
-            do{                // el do va a permitir repetir la petición del número al usuario 
+            do{  // el do va a permitir repetir la petición del número al usuario 
                 System.out.println("Ingresa un número: ");
                 num = scan.nextInt();
                 
@@ -31,9 +31,9 @@ public class guiaTeoricaEj10 {
                 
             } while (num<1 || num>20);// mientras el número sea menor a 1 o mayor a 20 el bucle estara activo.
             
-            System.out.print(num+" ");
+            System.out.print(num + " ");
             
-                for(int j=0; j<num;j++){ // este for va a iterar hasta desde cero hasta el número ingresado y va a imprimir un asterisco por cada iteración.
+                for(int j = 0; j < num;j++){ // este for va a iterar hasta desde cero hasta el número ingresado y va a imprimir un asterisco por cada iteración.
                     System.out.print("*");
                 }
             System.out.println(" ");

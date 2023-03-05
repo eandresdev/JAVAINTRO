@@ -27,8 +27,8 @@ public class guiaTeoricaEj09 {
             num = scan.nextInt(); // num alojará o guardará cada nuevo ingreso del número solicitado al usuario
             
             if (num > 0) {  
-                 cont++; //cont guardara los giros que de el bucle
-                 suma += num; // suma guardara la sumatoria de suma+num en cada nuevo ingreso del nú    mero, actualizandose en cada nuevo ingreso del num.
+                 cont++; //cont guardara los giros que de el bucle, es decir va a ir incrementado sobre el mismo en cada repeticion del bucle.
+                 suma += num; // suma guardara la sumatoria de suma+num en cada nuevo ingreso del número, actualizandose en cada nuevo ingreso del num.
                  System.out.println("Por favor ingresa otro número: ");
             }else if (num == 0) {
                  System.out.println("Se capturó el numero cero");
